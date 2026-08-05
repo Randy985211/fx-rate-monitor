@@ -2,9 +2,9 @@ name: 外汇牌价监控
 
 on:
   schedule:
-    # 每2分钟运行一次（尽可能接近实时，检测变化触发记录）
-    - cron: '*/2 * * * *'
-  workflow_dispatch:  # 允许手动触发
+    # UTC时区，每5分钟执行一次；周期类表达式不受时区偏移影响
+    - cron: '*/5 * * * *'
+  workflow_dispatch:  # 支持页面手动触发
 
 permissions:
   contents: write
@@ -20,6 +20,9 @@ jobs:
         with:
           fetch-depth: 0
       
+      - name: 设置系统时区为 Asia/Shanghai（北京时间）
+        run: sudo timedatectl set-timezone Asia/Shanghai
+
       - name: 设置Python环境
         uses: actions/setup-python@v5
         with:
@@ -31,7 +34,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: 运行监控脚本
+      - name: 运行监控抓取脚本
         run: |
           python scripts/run.py
       
@@ -39,13 +42,13 @@ jobs:
         run: |
           python scripts/generate_chart_data.py
       
-      - name: 提交并推送更新
+      - name: 提交并推送更新数据
         run: |
           git config --local user.email "fx-monitor-bot@users.noreply.github.com"
           git config --local user.name "FX Monitor Bot"
           git add -A
           if git diff --staged --quiet; then
-            echo "无数据变化，跳过提交"
+            echo "✅ 无数据变化，跳过本次提交"
           else
             git commit -m "更新外汇牌价数据 $(date '+%Y-%m-%d %H:%M:%S')"
             git push
