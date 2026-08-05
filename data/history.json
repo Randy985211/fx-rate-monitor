@@ -1,0 +1,50 @@
+{
+  "农业银行_美元": [
+    {
+      "timestamp": "2026-08-05 01:51:39",
+      "value": "675.681",
+      "old_value": null,
+      "source": "5waihui.com"
+    }
+  ],
+  "农业银行_欧元": [
+    {
+      "timestamp": "2026-08-05 01:51:39",
+      "value": "770.334",
+      "old_value": null,
+      "source": "5waihui.com"
+    }
+  ],
+  "民生银行_美元": [
+    {
+      "timestamp": "2026-08-05 01:51:39",
+      "value": "673.04",
+      "old_value": null,
+      "source": "5waihui.com"
+    }
+  ],
+  "民生银行_欧元": [
+    {
+      "timestamp": "2026-08-05 01:51:39",
+      "value": "774.39",
+      "old_value": null,
+      "source": "5waihui.com"
+    }
+  ],
+  "中国银行_欧元": [
+    {
+      "timestamp": "2026-08-05 01:51:39",
+      "value": "775",
+      "old_value": null,
+      "source": "boc.cn"
+    }
+  ],
+  "中国银行_美元": [
+    {
+      "timestamp": "2026-08-05 01:51:39",
+      "value": "673.41",
+      "old_value": null,
+      "source": "boc.cn"
+    }
+  ]
+}
