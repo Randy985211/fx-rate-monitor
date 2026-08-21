@@ -1349,6 +1349,12 @@
       "value": "781.34",
       "old_value": "780.79",
       "source": "5waihui.com"
+    },
+    {
+      "timestamp": "2026-08-22 02:00:51",
+      "value": "781.29",
+      "old_value": "781.34",
+      "source": "5waihui.com"
     }
   ],
   "中国银行_欧元": [
@@ -3006,6 +3012,12 @@
       "timestamp": "2026-08-22 01:37:47",
       "value": "782.56",
       "old_value": "782.49",
+      "source": "boc.cn"
+    },
+    {
+      "timestamp": "2026-08-22 02:00:51",
+      "value": "782.36",
+      "old_value": "782.56",
       "source": "boc.cn"
     }
   ],
