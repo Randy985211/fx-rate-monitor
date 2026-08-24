@@ -4509,6 +4509,12 @@
       "value": "671.17",
       "old_value": "671.15",
       "source": "boc.cn"
+    },
+    {
+      "timestamp": "2026-08-24 17:10:01",
+      "value": "671.11",
+      "old_value": "671.17",
+      "source": "boc.cn"
     }
   ]
 }
