@@ -3559,6 +3559,12 @@
       "value": "781.1",
       "old_value": "781.31",
       "source": "boc.cn"
+    },
+    {
+      "timestamp": "2026-08-25 19:13:53",
+      "value": "780.95",
+      "old_value": "781.1",
+      "source": "boc.cn"
     }
   ],
   "中国银行_美元": [
@@ -5000,6 +5006,12 @@
       "timestamp": "2026-08-25 18:51:20",
       "value": "670.79",
       "old_value": "670.8",
+      "source": "boc.cn"
+    },
+    {
+      "timestamp": "2026-08-25 19:13:53",
+      "value": "670.78",
+      "old_value": "670.79",
       "source": "boc.cn"
     }
   ]
