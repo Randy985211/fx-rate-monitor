@@ -3017,6 +3017,12 @@
       "value": "755.15",
       "old_value": "756.87",
       "source": "5waihui.com"
+    },
+    {
+      "timestamp": "2026-09-30 06:39:24",
+      "value": "756.97",
+      "old_value": "755.15",
+      "source": "5waihui.com"
     }
   ],
   "中国银行_欧元": [
@@ -5929,6 +5935,12 @@
       "value": "757.74",
       "old_value": "758.34",
       "source": "boc.cn"
+    },
+    {
+      "timestamp": "2026-09-30 06:39:24",
+      "value": "758.35",
+      "old_value": "757.74",
+      "source": "boc.cn"
     }
   ],
   "中国银行_美元": [
@@ -8084,6 +8096,12 @@
       "timestamp": "2026-09-30 02:44:52",
       "value": "669.76",
       "old_value": "669.64",
+      "source": "boc.cn"
+    },
+    {
+      "timestamp": "2026-09-30 06:39:24",
+      "value": "669.87",
+      "old_value": "669.76",
       "source": "boc.cn"
     }
   ]
