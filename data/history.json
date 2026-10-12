@@ -1425,6 +1425,12 @@
       "value": "667.48",
       "old_value": "667.40",
       "source": "5waihui.com"
+    },
+    {
+      "timestamp": "2026-10-13 06:35:47",
+      "value": "667.51",
+      "old_value": "667.48",
+      "source": "5waihui.com"
     }
   ],
   "民生银行_欧元": [
@@ -3346,6 +3352,12 @@
       "timestamp": "2026-10-12 23:41:57",
       "value": "744.20",
       "old_value": "746.12",
+      "source": "5waihui.com"
+    },
+    {
+      "timestamp": "2026-10-13 06:35:47",
+      "value": "742.87",
+      "old_value": "744.20",
       "source": "5waihui.com"
     }
   ],
@@ -6499,6 +6511,12 @@
       "value": "744.77",
       "old_value": "747.1",
       "source": "boc.cn"
+    },
+    {
+      "timestamp": "2026-10-13 06:35:47",
+      "value": "744.38",
+      "old_value": "744.77",
+      "source": "boc.cn"
     }
   ],
   "中国银行_美元": [
@@ -8792,6 +8810,12 @@
       "timestamp": "2026-10-12 23:41:57",
       "value": "668.19",
       "old_value": "668.12",
+      "source": "boc.cn"
+    },
+    {
+      "timestamp": "2026-10-13 06:35:47",
+      "value": "668.31",
+      "old_value": "668.19",
       "source": "boc.cn"
     }
   ]
